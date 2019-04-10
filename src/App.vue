@@ -24,20 +24,23 @@
         fullStyle: [
           `/*
 * Inspired by http://strml.net/
-* 大家好，我是方方
-* 二月了，好多公司都在招聘，你是不是也在准备简历呀。
-* 说做就做，我也来写一份简历！
+* Hello! My name is Kai :)
+* I am a Junior student from UC San Diego.
+* And I need to find an internship.
+* So
+* ...
+* I decide to make a resume for me.
 */
 
-/* 首先给所有元素加上过渡效果 */
+/* Let's add a transition effect to all elements first */
 * {
   transition: all .3s;
 }
-/* 白色背景太单调了，我们来点背景 */
+/* The blank background is too boring */
 html {
   color: rgb(222,222,222); background: rgb(0,43,54);
 }
-/* 文字离边框太近了 */
+/* The text is too close to the border */
 .styleEditor {
   padding: .5em;
   border: 1px solid;
@@ -45,13 +48,13 @@ html {
   overflow: auto;
   width: 45vw; height: 90vh;
 }
-/* 代码高亮 */
+/* Code highlighting */
 .token.selector{ color: rgb(133,153,0); }
 .token.property{ color: rgb(187,137,0); }
 .token.punctuation{ color: yellow; }
 .token.function{ color: rgb(42,161,152); }
 
-/* 加点 3D 效果呗 */
+/* Let's have so 3D effects */
 html{
   perspective: 1000px;
 }
@@ -63,7 +66,7 @@ html{
           transform: rotateY(10deg) translateZ(-100px) ;
 }
 
-/* 接下来我给自己准备一个编辑器 */
+/* Next I prepare an editor for myself. */
 .resumeEditor{
   position: fixed; right: 0; top: 0;
   padding: .5em;  margin: .5em;
@@ -72,19 +75,18 @@ html{
   background: white; color: #222;
   overflow: auto;
 }
-/* 好了，我开始写简历了 */
+/* Okay. I am going to start writing */
 
 
 `,
           `
-/* 这个简历好像差点什么
- * 对了，这是 Markdown 格式的，我需要变成对 HR 更友好的格式
- * 简单，用开源工具翻译成 HTML 就行了
+/* Uhhh
+ * I need to translate the Markdown format into HTML
  */
 `
           ,
           `
-/* 再对 HTML 加点样式 */
+/* Make HTML Fancy */
 .resumeEditor{
   padding: 2em;
 }
@@ -115,34 +117,46 @@ html{
 }
 `],
         currentMarkdown: '',
-        fullMarkdown: `方应杭
+        fullMarkdown: `Kai(Yikai Chen)
 ----
 
-资深前端工程师，资深前端讲师，现在在 [饥人谷](http://jirengu.com) 教前端课程。
+3rd year UCSD student major in CS
 
-技能
+Technology
 ----
 
-* 前端开发
-* Rails 开发
-* Node.js 开发
-* 前端授课
+* Java, Android, Google Fit API
 
-工作经历
+Tools
 ----
 
-1. [饥人谷](http://jirengu.com)
-2. 腾讯即时通讯平台部
-3. 阿里巴巴B2B部门
-4. 彩程知人项目组
+* Android Studio, JUnit, Espresso, Robolectric, ZenHub, CircleCI, GIT
+
+Techniques
+----
+
+* Agile Software Process
+* Mobile Software development
+* Unit Testing, Object Mocking
+* Basic Object-Oriented Desgin
+* Design Patterns: Strategy, Adapter, Observer, Factory Method
+
+Course
+----
+
+*Software Engineering(CSE 110)
+
+Research Experience
+----
+
+1. Pyret Project
+2. Maya Archeology
 
 链接
 ----
 
-* [GitHub](https://github.com/frankfang)
-* [我的文章](https://www.zhihu.com/people/zhihusucks/pins/posts)
+* [GitHub](https://github.com/kaiitheguy)
 
-> 如果你喜欢这个效果，Fork [我的项目](https://github.com/jirengu-inc/animating-resume)，打造你自己的简历！
 
 `
       }
