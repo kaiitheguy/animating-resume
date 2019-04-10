@@ -152,7 +152,7 @@ Research Experience
 1. Pyret Project
 2. Maya Archeology
 
-链接
+Link
 ----
 
 * [GitHub](https://github.com/kaiitheguy)
