@@ -1,10 +1,10 @@
-# 一个会动的简历模板
+# A moving resume
 
-> This is my resume
+> This is mine
 
-[预览](https://jirengu-inc.github.io/animating-resume/public/)
+[Preview](https://kaiitheguy.github.io/animating-resume/public/)
 
-## 使用方法
+## Usage
 
 ``` bash
 git clone git@github.com:jirengu-inc/animating-resume.git
@@ -13,12 +13,12 @@ npm install
 npm run dev
 ```
 
-## 部署方法
+## Deploy
 
 
-1. 编辑 config/index.js，修改第 10 行的 assetsPublicPath，值为 `项目名/dist`。如果你没有修改项目名 animating-resume，则可跳过此步骤。
+1. Eidt config/index.js，Set assetsPublicPath on line 10 to `animating-resume/dist`
 
-2. 编译、上传
+2. Compile and Upload
     ``` bash
     npm run build
     git add .
@@ -26,5 +26,5 @@ npm run dev
     git push
     ```
 
-3. 开启 GitHub Pages 功能
+3. Enable GitHub Pages
 
